@@ -5,7 +5,6 @@
 ![Disk Space](https://img.shields.io/badge/Disk%20Space-Optimizer-blue?style=for-the-badge&logo=hard-drive)
 ![C++](https://img.shields.io/badge/C++-17-orange?style=for-the-badge&logo=cplusplus)
 ![OpenSSL](https://img.shields.io/badge/OpenSSL-SHA256-green?style=for-the-badge&logo=openssl)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 **Intelligent Duplicate File Detection & Management System**
 
