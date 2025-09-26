@@ -11,7 +11,6 @@
 using namespace std;
 namespace fs = filesystem;
 
-// Function to compute the SHA-256 hash of a file
 string get_file_hash(const fs::path& file_path) {
     unsigned char hash[EVP_MAX_MD_SIZE]; 
     unsigned int hash_length;
@@ -51,7 +50,6 @@ string get_file_hash(const fs::path& file_path) {
     }
 }
 
-// Function to find duplicate files in a directory
 vector<vector<fs::path>> find_duplicate_files(const fs::path& root_directory) {
     unordered_map<string, vector<fs::path>> files_hash; 
     vector<vector<fs::path>> duplicates;
@@ -73,7 +71,6 @@ vector<vector<fs::path>> find_duplicate_files(const fs::path& root_directory) {
     return duplicates;
 }
 
-// Function to move duplicate files to a destination directory and ask for deletion
 void move_duplicates(const vector<vector<fs::path>>& duplicates, const fs::path& destination) {
     fs::create_directories(destination); 
     vector<fs::path> files_to_delete; 
@@ -131,7 +128,7 @@ void move_duplicates(const vector<vector<fs::path>>& duplicates, const fs::path&
 
 int main() {
     cout << "\n\n-----------------------------------\n";
-    cout << "Welcome to Duplicate File Remover";
+    cout << "Welcome to diskSpace Optimizer";
     cout << "\n-----------------------------------\n\n";
     
     string root_directory;
