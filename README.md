@@ -1,4 +1,4 @@
-# 🚀 diskSpace Optimizer
+# DiskSpace Optimizer
 
 <div align="center">
 
@@ -132,4 +132,3 @@ Duplicate files have been processed.
 
 ---
 
-**Made with ❤️ for efficient disk space management**
