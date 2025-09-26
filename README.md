@@ -10,7 +10,7 @@
 
 *Reclaim your disk space with cryptographic precision*
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Examples](#-examples) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage)
 
 </div>
 
@@ -95,39 +95,6 @@ The program will prompt you for:
 1. **Source Directory**: Where to search for duplicates
 2. **Destination Directory**: Where to move duplicate files
 
-### Example
-
-```bash
-$ ./diskSpaceOptimizer
-
------------------------------------
-Welcome to diskSpace Optimizer
------------------------------------
-
-Enter the root directory to search for duplicate files: /home/user/Documents
-Enter the destination directory for duplicate files: /home/user/duplicates
-
-Scanning for duplicate files.....
-
-Found 3 groups of duplicate files.
-
-Found the following duplicate files:
-1: /home/user/Documents/photos/vacation.jpg
-2: /home/user/Documents/backup/vacation.jpg
-3: /home/user/Documents/Downloads/vacation.jpg
-0: To Skip the current file group
-
-Enter the number of the file you want to keep (1-3): 1
-
-Moved /home/user/Documents/backup/vacation.jpg to /home/user/duplicates/vacation.jpg
-Moved /home/user/Documents/Downloads/vacation.jpg to /home/user/duplicates/vacation.jpg
-
-Do you want to delete the moved duplicate files? (y/n): y
-Deleted /home/user/duplicates/vacation.jpg
-Deleted /home/user/duplicates/vacation.jpg
-
-Duplicate files have been processed.
-```
 
 ---
 
