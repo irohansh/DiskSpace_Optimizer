@@ -90,14 +90,10 @@ g++ -std=c++17 -O3 -o diskSpaceOptimizer.exe diskSpace_Optimizer.cpp -lssl -lcry
 ```bash
 ./diskSpaceOptimizer
 ```
-
-The program will prompt you for three things:
-
-    1. **Source Directory**: The folder to scan for duplicates.
-
-    2. **Destination Directory**: The folder where duplicates will be moved.
-
-    3. **Action (y/n)**: Choose y to permanently delete all duplicates, or n to move them to the destination directory.
+The program will prompt you for:
+1. **Source Directory**: The folder to scan for duplicates.
+2. **Destination Directory**: The folder where duplicates will be moved.
+3. **Action (y/n)**: Choose y to permanently delete all duplicates, or n to move them to the destination directory.
 
 ⚠️ Warning: Permanent deletion is irreversible and does not use the Recycle Bin. When in doubt, choose n to move the files for review.
 
